@@ -21,7 +21,7 @@ spam_chats = []
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
   await event.reply(
-    "__Selam Ben Sari Tagger Bot, "Yardım İçin /help\nKomutunu Kullan",
+    "__**Selam Ben Sari Tagger Bot**, "Yardım İçin /help\nKomutunu Kullan",
     link_preview=False,
     buttons=(
       [
